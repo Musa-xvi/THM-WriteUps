@@ -24,7 +24,7 @@ The lab shows how attackers exploit poor input validation to access sensitive sy
 **Step 1: Identify Vulnerability**
 - Inspected input fields and URL parameters
 -  <img width="448" height="320" alt="parameters" src="https://github.com/user-attachments/assets/288a52bb-a1b2-491a-ba81-013d9e6108a5" />
-- Discovered improper input validation
+- Discovered improper input validation on the form, I changed the GET Parameters to POST.
 -  <img width="1128" height="120" alt="Improper-Input-Validation" src="https://github.com/user-attachments/assets/3cb49363-b44b-4808-8a36-3dd012153230" />
 
 **Step 2: Intercept Traffic**
@@ -33,7 +33,7 @@ The lab shows how attackers exploit poor input validation to access sensitive sy
 - Analyzed request structure
 
 **Step 3: Exploit LFI**
-- Used payload: ../../../../etc/flag2%00
+- Used payload: ../../../../etc/flag2%00 to change the input value on the cookies tab
 - <img width="852" height="280" alt="exploit-LFI" src="https://github.com/user-attachments/assets/821df0cf-89d4-4b2b-9de0-29a5c4cc3736" />
 
 **Techniques:**
