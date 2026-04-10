@@ -23,7 +23,8 @@ The lab shows how attackers exploit poor input validation to access sensitive sy
 ## Exploitation Walkthrough
 **Step 1: Identify Vulnerability**
 - Inspected input fields and URL parameters
--  <img width="448" height="320" alt="parameters" src="https://github.com/user-attachments/assets/288a52bb-a1b2-491a-ba81-013d9e6108a5" />
+<img width="448" height="320" alt="parameters" src="https://github.com/user-attachments/assets/80733d7f-ff12-4537-b6f5-c8d7ce64750f" />
+
 - Discovered improper input validation on the form, I changed the GET Parameters to POST.
 -  <img width="1128" height="120" alt="Improper-Input-Validation" src="https://github.com/user-attachments/assets/3cb49363-b44b-4808-8a36-3dd012153230" />
 
@@ -43,8 +44,9 @@ The lab shows how attackers exploit poor input validation to access sensitive sy
 **Result:**
 - Accessed sensitive system file outside web root
 - Successfully displayed file contents
--  <img width="852" height="214" alt="image" src="https://github.com/user-attachments/assets/dd5289f9-c07a-4361-8d25-033a38513d34" />
--  <img width="1403" height="505" alt="flag-output" src="https://github.com/user-attachments/assets/9d40f916-acd0-49a8-b08f-5172cb61d47d" />
+ <img width="852" height="214" alt="File -Contents" src="https://github.com/user-attachments/assets/14eb17c9-b512-40eb-bd35-4535cfc5c60e" />
+<img width="1403" height="505" alt="flag-output" src="https://github.com/user-attachments/assets/4830e063-427e-4092-806a-d8b4971a3819" />
+
 
 ## Vulnerability Analysis
 Root causes include:
