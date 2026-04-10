@@ -1,0 +1,16 @@
+# Findings
+
+## Vulnerability
+Local File Inclusion (LFI)
+
+## Root Cause
+Improper input validation and unsafe PHP functions
+
+## Impact
+- Exposure of sensitive files
+- Potential system compromise
+
+## Recommendation
+- Input validation
+- Disable risky PHP configurations
+- Use WAF
